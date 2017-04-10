@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SVCE Feedback</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="feedback">Feedback</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="suggestions">Suggestions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="field_1">Field 1</string>
+    <string name="rate_out_of_5">Rate out of 5</string>
+    <string name="field_2">Field 2</string>
+    <string name="field_3">Field 3</string>
+    <string name="field_4">Field 4</string>
+    <string name="field_5">Field 5</string>
+    <string name="submit">Submit</string>
+</resources>

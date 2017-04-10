@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/my_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text1"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl1">
+
+            <TextView
+                android:id="@+id/F1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F1"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E1"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/F2"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E2"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/F3"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E3"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/F4"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E4"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/F5"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl2">
+
+            <TextView
+                android:id="@+id/my_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text3"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl3">
+
+            <TextView
+                android:id="@+id/F6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_below="@id/F6"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E6"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F7"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E7"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F8"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E8"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F9"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E9"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F10"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl4">
+
+            <TextView
+                android:id="@+id/my_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text5"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl5">
+
+            <TextView
+                android:id="@+id/F11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F11"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E11"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F12"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E12"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F13"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E13"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F14"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E14"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F15"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl6">
+
+            <TextView
+                android:id="@+id/my_text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text7"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl7">
+
+            <TextView
+                android:id="@+id/F16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F16"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E16"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F17"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E17"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F18"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E18"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F19"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E19"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F20"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl8">
+
+            <TextView
+                android:id="@+id/my_text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text9"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl9">
+
+            <TextView
+                android:id="@+id/F21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F21"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E21"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F22"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E22"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F23"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E23"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F24"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E24"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F25"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl10">
+
+            <TextView
+                android:id="@+id/my_text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text11"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl11">
+
+            <TextView
+                android:id="@+id/F26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F26"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E26"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F27"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E27"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F28"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E28"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F29"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E29"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F30"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl12">
+
+            <TextView
+                android:id="@+id/my_text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text13"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl14"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl13">
+
+            <TextView
+                android:id="@+id/F31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F31"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E31"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F32"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E32"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F33"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E33"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F34"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E34"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F35"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl14">
+
+            <TextView
+                android:id="@+id/my_text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/my_text16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/my_text15"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rl15">
+
+            <TextView
+                android:id="@+id/F36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/field_1" />
+
+            <EditText
+                android:id="@+id/E36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F36"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E36"
+                android:text="@string/field_2" />
+
+            <EditText
+                android:id="@+id/E37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F37"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E37"
+                android:text="@string/field_3" />
+
+            <EditText
+                android:id="@+id/E38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F38"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E38"
+                android:text="@string/field_4" />
+
+            <EditText
+                android:id="@+id/E39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F39"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+
+            <TextView
+                android:id="@+id/F40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/E39"
+                android:text="@string/field_5" />
+
+            <EditText
+                android:id="@+id/E40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/F40"
+                android:inputType="number"
+                android:hint="@string/rate_out_of_5" />
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:id="@+id/button"
+            android:layout_below="@id/rl16"
+            android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+</ScrollView>
